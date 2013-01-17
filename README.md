@@ -3,6 +3,8 @@ Thème zKup - Dark
 
 Theme classique sombre pour zKup v3.3x
 
+![Imgur](http://i.imgur.com/hmE2s)
+
 ## Installation
 
 - Uploader le dossier **theme_zkup_dark** dans le dossier **app/layout/** de votre zKup
