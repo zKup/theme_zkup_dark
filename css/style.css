@@ -1,0 +1,1139 @@
+body, html {
+    font-size: 0.8em;
+    background: #3a3a41 url('../images/dark_leather.png') top left;
+}
+
+/*
+grey    : #343838
+blue 1  : #005F6B
+blue 2  : #008C9E
+blue 3  : #00B4CC
+blue 4  : #00DFFC
+orange  : #ffbc41
+*/
+
+#wrapper {
+    background: rgba(150, 156, 163, 0.11);
+    border: 1px solid rgb(26, 26, 26);
+    border-top: 0px none;
+    border-bottom: 0px none;
+    box-shadow: 0px 0px 70px rgba(175, 211, 235, 0.47);
+}
+
+#content {
+    padding-left: 20px;
+
+}
+
+.sidebar {
+    color: rgb(218, 218, 218);
+}
+
+#sidebar-left {
+
+}
+
+#sidebar-right {
+
+}
+
+.sidebar>div {
+    margin-bottom: 10px;
+
+}
+
+#sidebar-right > .block > h4 {
+    text-align: right;
+
+    padding-right: 10px;
+}
+
+#sidebar-left > .block > h4 {
+    padding-left: 10px;
+
+}
+
+#sidebar-left > .block {
+    -webkit-border-radius: 0px 0px 10px 0px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+#sidebar-right > .block {
+    -webkit-border-radius: 0px 0px 0px 10px;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.block>h4 {
+    text-align: center;
+    font-weight: 400;
+    padding: 3px 0px;
+    font-size: 1.4em;
+    font-variant: small-caps;
+
+    text-shadow: 0 1px 1px #000;
+
+    border-bottom: 4px solid rgb(255, 133, 0);
+    color: #FFF;
+    text-align: left;
+}
+
+.block>div {
+    padding: 0px 10px 10px;
+}
+
+#content h1 {
+    font-size: 2em;
+}
+
+#content h2 {
+    font-size: 2.3em;
+    font-weight: 300;
+    text-shadow: 0px 0px 3px #BBB;
+    line-height: 0.8em;
+}
+
+#content>h1, #content>h2 {
+    line-height: inherit;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(126, 120, 120);
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #DDD;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.btn>a {
+    color: #fff;
+}
+
+/* Page : Accueil */
+.un-article {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.un-article:last-child {
+    border: 0px none;
+}
+
+.un-article>h2>.infos {
+    font-size: 0.5em;
+    color: rgb(218, 218, 218);
+}
+
+.un-article>h2>.nb-com {
+    float: right;
+    font-size: 0.8em;
+}
+
+.un-article>h2>.nb-com>a {
+    color: rgb(221, 153, 31);
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.un-article>.reagir {
+    float: right;
+}
+
+.com-form>textarea {
+    width: 100%;
+    display: block;
+}
+
+.com-form {
+    text-align: right;
+}
+
+/* Blocs */
+
+/* bloc membre */
+.mes-non-lus {
+    font-weight: bold;
+    color: #ffbc41;
+}
+
+.block-content table {
+    width: 100%;
+    text-align: center;
+}
+
+.mess-non-lus {
+    font-size: 0.8em;
+
+    padding: 2px 6px;
+    float: right;
+}
+
+/* bloc matchs */
+.block .s {
+    width: 20px;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+/* bloc partenaire */
+.block-content .partenaires {
+    text-align: center;
+
+}
+
+.block-content .partenaires li {
+    margin-bottom: 10px;
+}
+
+.block-content .partenaires img {
+    max-width: 150px;
+
+}
+
+/* bloc login */
+#flogin, #help {
+    text-align: center;
+}
+
+/* Module XP */
+
+.xp-classement {
+    text-align: left !important;
+}
+
+/* Module Login */
+.sidebar input[type=text], .sidebar input[type=password] {
+    width: 85%;
+}
+
+/* Module Shoutbox */
+.shout_date {
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+#shout-form {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.shout_delete {
+    float: right;
+}
+
+.shoutbox>.tar {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#sb_message {
+    width: 90%;
+}
+
+/* Page tournoi/listedesmatchs */
+
+.pageLesMatchs {
+    width: 95%;
+}
+
+.pageLesMatchs tr td:first-child {
+    width: 20px;
+}
+
+.pageLesMatchs>caption {
+    padding: 20px 0px 0px 0px;
+
+    font-size: 1.5em;
+}
+
+.pageLesMatchs>caption>img {
+    vertical-align: top;
+}
+
+.pageLesMatchs .voir-plus {
+    text-align: right;
+    background: none !important;
+}
+
+.pageLesMatchs .s, .pageLesMatchs .score {
+    width: 20px;
+    color: #fff;
+    font-weight: 200;
+    font-size: 0.9em;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.pageLesMatchs .poule {
+    font-weight: bold;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.pageLesMatchsCol {
+    width: 50%;
+    vertical-align: top;
+}
+
+.sep-matchs {
+    font-weight: bold;
+    font-size: 1.2em;
+    background: #f0f0f0;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.voir-plus {
+    background: none;
+}
+
+/* Page d'accueil */
+.nb-com>i {
+    vertical-align: super;
+}
+
+/* Page fiche joueur */
+#nom-joueur {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+    color: rgb(233, 233, 233);
+}
+
+#nom-joueur > span {
+    font-size: 2em;
+}
+
+#nom-joueur > small {
+    float: right;
+    font-size: 1em;
+}
+
+#side_equipe {
+    text-align: center;
+}
+
+#side_equipe .champ-valeur {
+    padding: 0px 8px;
+
+    text-align: right;
+    color: rgb(218, 218, 218);
+}
+
+#side_equipe .champ-cle {
+    padding: 0px 8px;
+
+    color: rgb(233, 233, 233);
+    border-bottom: 0px none;
+    border: 0px none;
+}
+
+#action-bar {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Page Liste des équipes */
+.equipes-participantes {
+    clear: both;
+}
+
+.equipes-participantes div {
+    display: inline-block;
+    width: 19%;
+    padding: 5px 0px;
+}
+
+.equipes-participantes img {
+    margin-right: 5px;
+}
+
+/* Page partenaires */
+.un_partenaire {
+    clear: both;
+}
+
+.un_partenaire h2 a {
+    font-size: 0.5em;
+
+    text-shadow: none;
+}
+
+.un_partenaire .image {
+    float: left;
+
+    margin: 0px 20px 10px 0px;
+}
+
+/* Page voir un match */
+#tabs-resume table {
+    width: 50%;
+    border-radius: 10px;
+}
+
+#tabs-matchs td {
+    text-align: center;
+}
+
+#tabs-matchs h2 {
+    text-align: center;
+
+}
+
+/* Page écrire un message */
+#MES_CONTENU {
+    width: 97%;
+}
+
+/* Divers */
+.align-top td {
+    vertical-align: top;
+}
+
+.tab-pane > h2 {
+    text-align: center;
+}
+
+/* Formulaire dans un modal */
+#ajax-content > form {
+    margin: 0px;
+}
+
+.modal-footer .text-error,
+.modal-footer .text-warning,
+.modal-footer .text-info,
+.modal-footer .muted,
+.modal-footer .text-success {
+    font-size: 1.3em;
+}
+
+/*** Scores */
+.s {
+    text-align: center !important;
+    color: white;
+    text-shadow: 0 1px 1px black;
+}
+
+.gagnant {
+    background: #73d145; /* Old browsers */
+    background: -moz-linear-gradient(top, #73d145 0%, #5fa55e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #73d145), color-stop(100%, #5fa55e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #73d145 0%, #5fa55e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #73d145 0%, #5fa55e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #73d145 0%, #5fa55e 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #73d145 0%, #5fa55e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#73d145', endColorstr = '#5fa55e', GradientType = 0); /* IE6-9 */
+}
+
+.perdant {
+    background: #db4a4a; /* Old browsers */
+    background: -moz-linear-gradient(top, #db4a4a 0%, #a31616 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #db4a4a), color-stop(100%, #a31616)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #db4a4a 0%, #a31616 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #db4a4a 0%, #a31616 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #db4a4a 0%, #a31616 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #db4a4a 0%, #a31616 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#db4a4a', endColorstr = '#a31616', GradientType = 0); /* IE6-9 */
+}
+
+.egalite {
+    background: #6C9EDB; /* Old browsers */
+    background: -moz-linear-gradient(top, #6C9EDB 0%, #297cdd 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6C9EDB), color-stop(100%, #297CDD)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #6C9EDB 0%, #297CDD 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #6C9EDB 0%, #297CDD 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #6C9EDB 0%, #297CDD 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #6C9EDB 0%, #297CDD 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#6C9EDB', endColorstr = '#297CDD', GradientType = 0); /* IE6-9 */
+}
+
+/* Mur */
+
+#murs {
+    margin-top: 10px;
+}
+
+#murs, #murs div {
+    padding: 0px;
+}
+
+#murs .annonce {
+    text-align: center;
+}
+
+#murs form {
+    border: 1px solid #ddd;
+    margin: 10px auto;
+    width: 99%;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+#murs textarea {
+    height: 42px;
+    font-size: 1.15em;
+    border: 1px solid #efefef;
+    resize: none;
+    width: 99%;
+    padding: 2px;
+    margin: 0px;
+    height: 46px;
+}
+
+#murs form div.action_bar {
+    background: #708090;
+    text-align: right;
+    height: 32px;
+}
+
+#murs form div input {
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+#murs #char_count {
+    background: none;
+    border: 0px none;
+    color: #fff;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 10px;
+}
+
+#murs .murs-avatar {
+    float: left;
+}
+
+#murs .murs-avatar, #murs .mur-message-avatar img {
+    width: 50px;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    margin: 2px;
+}
+
+#murs .mur-message {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    margin: 20px auto 0px auto;
+}
+
+#murs .mur-message:last-of-type {
+    border-bottom: 0 none;
+}
+
+#murs .mur-message-avatar a {
+    border: 0px none;
+}
+
+#murs .mur-message-avatar {
+    float: left;
+}
+
+#murs .mur-message-histoire {
+    padding-left: 55px !important;
+}
+
+#murs .mur-message-histoire p {
+    padding: 2px;
+    margin: 0px;
+}
+
+#murs #form_mur .mur-message-avatar,
+#murs #form_mur .mur-message-histoire {
+}
+
+#murs .mur-message-contenu p {
+    padding: 5px;
+}
+
+#murs .mur-message-contenu {
+    padding-left: 65px !important;
+}
+
+.com-delete {
+    float: right;
+}
+
+/* TOURNOIS */
+
+table.arbre {
+    border-collapse: collapse;
+    margin: 0 auto 30px auto;
+}
+
+table.arbre caption {
+    font-size: 1.5em;
+
+    font-weight: 200;
+    padding: 0px 0px 20px 0px;
+}
+
+table.arbre  tr {
+}
+
+table.arbre  tr td {
+    font-size: 11px;
+    line-height: 15px;
+}
+
+#winner {
+
+}
+
+table.arbre  tr td.s {
+    width: 15px;
+    opacity: 0.3;
+}
+
+table.arbre  tr td.eq {
+    background: url('../../../../webroot/images/bg_eq.jpg') bottom left repeat-x;
+    border: 0px none;
+    vertical-align: middle;
+    background-position-y: -18px;
+    box-shadow: 0px 0px 2px #888;
+    font-size: 0.9em;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+table.arbre  tr td.eq:hover {
+}
+
+table.arbre  tr td.eq a.equipe:hover {
+    text-decoration: none;
+}
+
+table.arbre  tr td.eq a.equipe {
+    overflow: hidden;
+    color: black;
+    font-size: 1em;
+    display: block;
+}
+
+table.arbre  tr td.d {
+    background: url('../../../../webroot/images/noir/coin_d.png') top left no-repeat;
+}
+
+table.arbre  tr td.f {
+    background: url('../../../../webroot/images/noir/coin_f.png') top left no-repeat;
+    background-position-y: -2px;
+}
+
+table.arbre  tr td.i {
+    background: url('../../../../webroot/images/noir/coin_i.png') top left no-repeat;
+}
+
+table.arbre  tr td.m {
+    background: url('../../../../webroot/images/noir/coin_m.png') top left no-repeat;
+}
+
+table.arbre  tr td.bd {
+    background: url('../../../../webroot/images/noir/coin_bd.png') top left no-repeat;
+}
+
+table.arbre  tr td.hd {
+    background: url('../../../../webroot/images/noir/coin_hd.png') top left no-repeat;
+}
+
+table.arbre  tr td.hbg {
+    background: url('../../../../webroot/images/noir/coin_hbg.png') top left no-repeat;
+}
+
+table.arbre tr td.alert {
+    background: #FF8282;
+}
+
+table.arbre tr td.look {
+    background: rgb(219, 219, 219);
+}
+
+table.arbre  tr td.eq a.equipe span.s {
+    display: block;
+    float: left;
+    text-align: center;
+    border-right: 1px solid black;
+    width: 16px;
+    font-size: 0.8em;
+}
+
+span.eq_etat_normal img,
+span.eq_etat_1o1 img,
+span.eq_etat_premium img,
+span.eq_etat_sup img {
+    margin-left: 3px;
+}
+
+span.eq_etat_normal,
+span.eq_etat_normal a {
+
+}
+
+span.eq_etat_premium,
+span.eq_etat_premium a {
+    color: orange !important;
+    font-weight: bold !important;
+}
+
+span.eq_etat_sup,
+span.eq_etat_sup a {
+    color: grey !important;
+    font-style: italic !important;
+}
+
+/* Ligue */
+.poules_coupe, .poule-matchs {
+    width: 60%;
+
+}
+
+.pageLesMatchs thead th {
+    text-align: center;
+}
+
+.pageLesMatchs .lead {
+    margin: 0px;
+}
+
+.pageLesMatchs td {
+    text-align: center;
+}
+
+.poule-classement tr td:first-child {
+    text-align: left;
+}
+
+/* Page boite d'envoi */
+
+#mes-messages {
+
+}
+
+#mes-messages .date {
+    width: 60px;
+}
+
+#mes-messages .message {
+    width: 60%;
+}
+
+#mes-messages .nom {
+    width: 20%;
+}
+
+.nonlu {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Page modification fiche joueur */
+textarea[name=JOU_LIC], textarea[name=JOU_DESC] {
+    width: 97%;
+}
+
+select[name=EQI_SEL] {
+    margin: 0px;
+}
+
+/* Page modification fiche équipe */
+#tab-logo img {
+    float: left;
+
+    margin-right: 20px;
+}
+
+#maj {
+    width: 300px;
+    margin: 20px auto;
+}
+
+/* Page participer à une compétition */
+#accepteReglement {
+    float: left;
+    margin-right: 10px;
+}
+
+/* Page ligue */
+
+.ligue-classement .s {
+    color: rgb(255, 255, 255);
+
+}
+
+/* Page ladder */
+
+.matchmaking-list > h2, .matchmaking > h2 {
+    text-align: center;
+}
+
+#listeDefie {
+    margin-bottom: 0px;
+}
+
+#form-matchmaking form {
+    width: 460px;
+    border: 1px solid #ddd;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px;
+    background: #efefef;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 0px 10px #ddd;
+}
+
+#classement-ladder .monEquipe .lien-defi {
+    display: none
+}
+
+#classement-ladder .monEquipe {
+    font-weight: bold;
+    background: #FFFFB5;
+}
+
+#classement-ladder .pts {
+    text-align: center;
+}
+
+#classement-ladder .matchs {
+    text-align: center;
+}
+
+/* Rencontre */
+
+input.ok,
+input.annuler,
+input.imprimer,
+input.retour,
+input.valider,
+input.refuser,
+input.signaler {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 91px;
+    height: 21px;
+}
+
+input.ok:hover,
+input.annuler:hover,
+input.imprimer:hover,
+input.retour:hover,
+input.valider:hover,
+input.refuser:hover,
+input.signaler:hover {
+    background-position: bottom left;
+}
+
+input.ok {
+    background: url('../../../../webroot/images/buttons/ok.jpg') top left no-repeat;
+}
+
+input.annuler {
+    background: url('../../../../webroot/images/buttons/annuler.jpg') top left no-repeat;
+}
+
+input.imprimer {
+    background: url('../../../../webroot/images/buttons/imprimer.jpg') top left no-repeat;
+}
+
+input.retour {
+    background: url('../../../../webroot/images/buttons/retour.jpg') top left no-repeat;
+}
+
+input.valider {
+    background: url('../../../../webroot/images/buttons/valider.jpg') top left no-repeat;
+}
+
+input.refuser {
+    background: url('../../../../webroot/images/buttons/refuser.jpg') top left no-repeat;
+}
+
+input.signaler {
+    background: url('../../../../webroot/images/buttons/signaler.jpg') top left no-repeat;
+}
+
+/* Roster */
+
+#roster {
+    overflow: auto;
+    height: 400px;
+    font-size: 12px;
+}
+
+#roster table {
+    width: 100%;
+    margin: 0px auto;
+}
+
+#roster td {
+    background: #f0f0f0;
+    vertical-align: top;
+}
+
+#roster th {
+    padding: 10px 0px;
+}
+
+#roster ul {
+    list-style: none;
+}
+
+#roster li {
+    height: 54px;
+    line-height: 54px;
+    vertical-align: center;
+    display: block;
+    text-align: left;
+    position: relative;
+    border-bottom: 2px solid #dedede;
+    border-top: 1px solid #fcfcfc;
+}
+
+#roster li a {
+    line-height: 54px;
+    display: block;
+    border-bottom: 0px none;
+}
+
+#roster li a:hover {
+    background: #e0e0e0;
+}
+
+#roster .joueur-licence {
+    bottom: 0px;
+}
+
+#roster .joueur-date {
+    top: 0px;
+}
+
+#roster .joueur-licence, #roster .joueur-date {
+    display: block;
+    position: absolute;
+    height: 20px;
+    line-height: 20px;
+    padding: 0px 4px;
+    color: #888;
+    text-shadow: 1px 1px 0px #fff
+}
+
+.joueur-avatar {
+    width: 50px;
+    height: 50px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#roster .jl .joueur-licence, #roster .jl .joueur-date {
+    left: 0px;
+}
+
+#roster .jr .joueur-licence, #roster .jr .joueur-date {
+    right: 0px;
+}
+
+#roster .alerte {
+    background: #F5DADA;
+}
+
+#roster .alerte .joueur-licence, #roster .alerte .joueur-date {
+    color: #555;
+}
+
+#roster .jl .joueur-avatar {
+    margin: 2px 2px 0px 5px;
+}
+
+#roster .jr .joueur-avatar {
+    margin: 2px 5px 0px 2px;
+}
+
+#roster .jl li {
+    text-align: right;
+}
+
+#roster form {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+#roster input[type=image] {
+    height: 12px;
+}
+
+#roster .activite {
+    float: right;
+}
+
+#tabs-roster h2 {
+    font-weight: 200;
+    text-align: center;
+    font-size: 2em;
+    margin: 0px;
+}
+
+#roster ul {
+    margin: 0px;
+}
+
+#btn-ajouter-mediasUploader {
+    float: right
+}
+
+.com-zone-com {
+    width: 99% !important;
+}
+
+/* Page boite reception / boite envoie */
+
+.un-message {
+    overflow: hidden;
+}
+
+/* Modification du menu */
+
+.dropdown-menu {
+    margin: 0px 0px 0px;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.navbar .nav > li > .dropdown-menu::after {
+    content: none;
+}
+
+#tabs-arbres .alert {
+    padding: 1px;
+}
+
+#menuclassique {
+    background: rgba(240, 186, 90, 0.1);
+
+    border-bottom: 1px solid rgb(83, 83, 83);
+}
+
+#menuclassique>div {
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+
+    border-radius: 0px 0px 0px;
+
+}
+
+#menuclassique li>a {
+    color: rgb(240, 158, 70);
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.18);
+    font-size: 1.5em;
+    font-variant: small-caps;
+    font-family: sans-serif;
+}
+
+#menuclassique .brand {
+    color: rgb(255, 255, 255);
+}
+
+.article {
+    background: #FFF;
+
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+#content .table>thead>tr>th {
+    color: white;
+}
+
+#content .table tr:nth-child(odd) td {
+    background: rgb(99, 99, 99);
+
+}
+
+#content .table td {
+    background: rgb(112, 112, 112);
+}
+
+#tabs-resume .lead, .arbre>caption, #tabs-equipes>h2, #tabs-matchs h2, #murs>h2,
+h2,
+#tabs-reglement>h1,
+.tabEdition legend,
+.poules_coupe .lead,
+.poule-matchs .lead
+{
+    color: rgb(213, 213, 213);
+    text-shadow: 1px 1px 5px #000;
+}
+
+#tabs-resume>h2 {
+    color: rgb(213, 213, 213);
+    text-shadow: 1px 1px 5px #000;
+    margin-top: 30px;
+}
+
+#tabs-resume>p {
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+
+    margin-top: 30px;
+}
+
+#tabs-equipes>h2 {
+    margin: 10px auto 30px auto;
+}
+
+#murs>#murs-messages, .un-message {
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.un-message {
+    margin: 10px auto 20px auto;
+}
+
+.mes-date {
+    color: white;
+}
+
+.listeMatchs {
+    color: #FFF;
+}
+
+.sep-matchs {
+    color: #000;
+}
+
+.listeTournois {
+
+}
+
+.listeTournois>li {
+    list-style: none;
+
+}
+
+table .g, table .d {
+    color: rgb(243, 243, 243);
+}
+
+#modifier_membre {
+    color: rgb(243, 243, 243);
+}
+
+#tab-joueurs >form > table, #tab-logo {
+    color: #fff;
+}
+
+.tabEdition, #tabs-defier, .matchmaking-list, .poules_coupe,.poule-matchs {
+    color: #FFF;
+}
+
+#classement-ladder {
+    color: rgb(241, 241, 241);
+        text-shadow: 1px 1px 1px rgb(34, 34, 34);
+}
