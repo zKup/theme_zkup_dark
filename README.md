@@ -3,7 +3,7 @@ Thème zKup - Dark
 
 Theme classique sombre pour zKup v3.3x
 
-![Imgur](http://i.imgur.com/hmE2s)
+![](http://i.imgur.com/hmE2sl.png)
 
 ## Installation
 
